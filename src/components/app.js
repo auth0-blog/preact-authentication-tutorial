@@ -2,8 +2,6 @@ import { h, Component } from 'preact';
 import { Router } from 'preact-router';
 
 import Nav from './nav';
-import Home from './home';
-import Profile from './profile';
 import CelebrityJokes from './celebrityjokes';
 import FoodJokes from './foodjokes';
 import Callback from './callback';

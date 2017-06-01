@@ -1,5 +1,4 @@
 import decode from 'jwt-decode';
-import { browserHistory } from 'preact-router';
 import auth0 from 'auth0-js';
 const ID_TOKEN_KEY = 'id_token';
 const ACCESS_TOKEN_KEY = 'access_token';
@@ -27,7 +26,6 @@ export function login() {
 export function logout() {
   clearIdToken();
   clearAccessToken();
-  //browserHistory.push('/');
   window.location.href = "/";
 }
 

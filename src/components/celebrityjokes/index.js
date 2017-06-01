@@ -32,22 +32,22 @@ class CelebrityJokes extends Component {
           <hr/>
 
           { jokes.map((joke, index) => (
-                <div className="col-sm-6" key={index}>
-                  <div className="panel panel-danger">
-                    <div className="panel-heading">
-                      <h3 className="panel-title"><span className="btn">#{ joke.id }</span></h3>
+                <div class="col-sm-6" key={index}>
+                  <div class="panel panel-danger">
+                    <div class="panel-heading">
+                      <h3 class="panel-title"><span className="btn">#{ joke.id }</span></h3>
                     </div>
-                    <div className="panel-body">
+                    <div class="panel-body">
                       <p> { joke.joke } </p>
                     </div>
                   </div>
                 </div>
             ))}
 
-          <div className="col-sm-12">
-            <div className="jumbotron text-center">
+          <div class="col-sm-12">
+            <div class="jumbotron text-center">
               <h2>View Food Jokes</h2>
-              <Link className="btn btn-lg btn-success" to='/'>Chuck Norris Food Jokes </Link>
+              <Link class="btn btn-lg btn-success" ='/'>Chuck Norris Food Jokes </Link>
             </div>
           </div>
         </div>

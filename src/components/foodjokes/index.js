@@ -22,7 +22,7 @@ class FoodJokes extends Component {
 
     return (
       <div>
-        <h3 className="text-center">Chuck Norris Food Jokes</h3>
+        <h3 class="text-center">Chuck Norris Food Jokes</h3>
         <hr/>
 
         { jokes.map((joke, index) => (

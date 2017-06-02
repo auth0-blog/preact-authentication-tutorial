@@ -47,7 +47,7 @@ class CelebrityJokes extends Component {
           <div class="col-sm-12">
             <div class="jumbotron text-center">
               <h2>View Food Jokes</h2>
-              <Link class="btn btn-lg btn-success" ='/'>Chuck Norris Food Jokes </Link>
+              <Link class="btn btn-lg btn-success" href='/'>Chuck Norris Food Jokes </Link>
             </div>
           </div>
         </div>

@@ -89,7 +89,7 @@
     "webpack-dev-server": "^2.4.4"
   },
   "dependencies": {
-    "auth0-js": "^8.7.0",
+    "auth0-js": "^9.0.0",
     "axios": "^0.16.1",
     "jwt-decode": "^2.2.0",
     "preact": "^8.1.0",
